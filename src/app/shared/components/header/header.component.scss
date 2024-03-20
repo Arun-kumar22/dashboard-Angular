@@ -1,0 +1,63 @@
+.mat-toolbar{
+    width: 23%;
+}
+
+ul li{
+    list-style: none;
+    
+}
+.custom-toolbar {
+    background-color: #ffffff; /* Primary color */
+    color: white;
+    width: 23%;
+    transition: all 0.3s ease;
+}
+
+.custom-toolbar:hover {
+    background-color: #d2d6d5; /* Darker shade on hover */
+}
+
+.menu-button {
+    margin-right: 10px;
+    color: black;
+}
+
+img {
+   width: 50%;
+    height: 10%;
+   padding: 20px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-icon {
+    color: white;
+}
+
+.profile-button {
+    color: white;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.profile-button:hover {
+    border-color: white;
+}
+
+/* Animation for menu icon */
+.menu-button .mat-icon {
+    transition: transform 0.3s ease;
+}
+
+.menu-button:hover .mat-icon {
+    transform: rotate(90deg);
+}
+mat-toolbar{
+    background: #b60000;
+   margin-right: 50%;
+}
+
+

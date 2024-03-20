@@ -1,0 +1,17 @@
+<mat-card class="mat-dialog-content">
+  <div class="heading">
+    <h2>Upload Avatar</h2>
+  </div>
+  <mat-divider></mat-divider>
+
+  <div class="profile">
+    <img *ngIf="profileImageUrl" [src]="profileImageUrl" alt="Profile Image">
+    <button mat-raised-button (click)="openFilePicker()">Choose Photo</button>
+    <input type="file" id="fileInput" style="display: none" (change)="onFileSelected($event)">
+  </div>
+
+  <div mat-dialog-actions class="actions-section">
+    <button class="cancel" type="button" [mat-dialog-close]="false">Update</button>
+    <button class="Submit" type="submit" [mat-dialog-close]="false">Cancel</button>
+  </div>
+</mat-card>

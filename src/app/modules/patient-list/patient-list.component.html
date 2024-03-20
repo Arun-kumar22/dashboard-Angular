@@ -1,0 +1,83 @@
+<diV mat-card class="card">
+    <div mat-dialog-title class="heading">
+      <h1>Personal Info</h1>
+    </div>
+    <mat-divider></mat-divider>
+    <form [formGroup]="patientForm" (ngSubmit)="onFormSubmit()">
+      <div mat-dialog-content class="content">
+        <div class="row">
+          <mat-form-field class="example-form-field" appearance="outline">
+            <mat-label>Patient Name</mat-label>
+            <input
+              matInput
+              type="text"
+              placeholder=" "
+              formControlName="patientName"
+            />
+          </mat-form-field>
+          <mat-form-field class="example-form-field" appearance="outline">
+            <mat-label>Mobile Number</mat-label>
+            <input matInput type=" number" formControlName="phone" />
+          </mat-form-field>
+          <mat-form-field class="example-form-field"appearance="outline">
+            <mat-label>Age</mat-label>
+            <input matInput type=" number" formControlName="age" />
+          </mat-form-field>
+        </div>
+        <div class="row">
+          <mat-form-field appearance="outline">
+            <mat-label>DOB</mat-label>
+            <input matInput [matDatepicker]="picker" />
+            <mat-datepicker-toggle
+              matIconSuffix
+              [for]="picker"
+            ></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+  
+          <mat-form-field class="example-form-field"appearance="outline">
+            <mat-label>State</mat-label>
+            <input matInput type=" text" formControlName="state" />
+          </mat-form-field>
+          <mat-form-field class="example-form-field"appearance="outline">
+            <mat-label>Country</mat-label>
+            <input matInput type=" text" formControlName="country" />
+          </mat-form-field>
+        </div>
+  
+        <div class="row">
+          <mat-form-field class="example-form-field" appearance="outline">
+            <mat-label>Blood Group</mat-label>
+            <mat-select placeholder=" " formControlName="bloodGroup">
+              <mat-option *ngFor="let val of bloodgroup" [value]="val">{{
+                val
+              }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+          <mat-form-field class="example-form-field" appearance="outline">
+            <mat-label>Gender *</mat-label>
+            <mat-select placeholder=" " formControlName="gender">
+              <mat-option *ngFor="let val of gender" [value]="val">{{
+                val
+              }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field class="example-form-field" appearance="outline">
+            <mat-label>City</mat-label>
+            <input matInput placeholder=" " formControlName="city" />
+          </mat-form-field>
+        </div>
+      </div>
+  
+      <div mat-dialog-actions class="actions-section">
+        <button class="cancel" type="button" [mat-dialog-close]="false">
+          Cancel
+        </button>
+        <button class="Submit" type="submit">
+          {{ data ? "Update" : "Save" }}
+        </button>
+      </div>
+    </form>
+  </diV>
+  

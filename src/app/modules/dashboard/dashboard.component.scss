@@ -1,0 +1,113 @@
+.choose_act  {
+        color: rgb(2, 2, 101);
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+/* Section Heading Styles */
+.section-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hsc-card{
+    padding: 10px;
+}
+/* Divider Styles */
+.mat-divider {
+    margin: 10px 0;
+    border-top-color: rgba(0, 0, 0, 0.12); /* Adjust color and opacity as needed */
+}
+
+/* Data Section Styles */
+.data-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data-item {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease;
+}
+
+.data-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+/* Actions Section Styles */
+.actions-section {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.action-item {
+  /* Primary color */
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-item:hover {
+    background-color: #7aeb88; /* Darker shade on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+.action-item1 {
+    background-color: #6c757d; /* Primary color */
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-item1:hover {
+    background-color: #f87662; /* Darker shade on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.hsc-card {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+
+  .section-heading {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .data-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .data-item {
+    flex: 0 0 auto; /* Prevent items from growing or shrinking */
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .data-item:hover {
+    background-color: #f0f0f0; /* Lighter gray background on hover */
+  }
+  mat-icon{
+    justify-content: end;
+    color: blue;
+  }

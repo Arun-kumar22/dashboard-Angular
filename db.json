@@ -1,0 +1,63 @@
+{
+  "patientDetails": [
+    {
+      "patientName": "Surya",
+      "phone": "6785456789",
+      "dateofbirth": "",
+      "state": "Kerala",
+      "country": "India",
+      "bloodGroup": "A1B+",
+      "city": "Chennai",
+      "gender": "Male",
+      "id": "aaed"
+    },
+    {
+      "id": "403c",
+      "patientName": "arun",
+      "phone": "34567890098765",
+      "dateofbirth": "",
+      "state": "tamil nadu",
+      "country": "India",
+      "bloodGroup": "B+",
+      "city": "chennai",
+      "gender": "Male"
+    },
+    {
+      "id": "8e9c",
+      "patientName": "Kumar",
+      "phone": "6381052784",
+      "dateofbirth": "",
+      "state": "tamilnadu",
+      "country": "india",
+      "bloodGroup": "B",
+      "city": "chennai",
+      "gender": "Male"
+    }
+  ],
+  "doctorDetails": [
+    {
+      "id": "1",
+      "doctorName": "Dr. John Doe",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "designation": "General Physician",
+      "department": "Internal Medicine",
+      "address": "123 Main Street",
+      "mobile": "1234567890",
+      "short": "Experienced doctor with expertise in various medical conditions.",
+      "bloodGroup": "O+"
+    },
+    {
+      "id": "2",
+      "doctorName": "Dr. Jane Smith",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "designation": "Pediatrician",
+      "department": "Pediatrics",
+      "address": "456 Elm Street",
+      "mobile": "9876543210",
+      "short": "Specializes in pediatric care for infants, children, and adolescents.",
+      "bloodGroup": "A-"
+    }
+  ]
+}

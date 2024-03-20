@@ -1,0 +1,123 @@
+.choose_act  {
+  color: rgb(2, 2, 101);
+  font-weight: 800;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.scroll-container {
+    overflow-y: auto;
+    height: auto;
+     /* Set max height and enable vertical scrolling */
+  }
+
+  .other-details-card {
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+  }
+
+  .user-icon {
+    margin-right: 10px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column; /* Align text vertically */
+  }
+
+  .text span {
+    margin-bottom: 5px; /* Adjust spacing between text and icon */
+  }
+
+  .edit-icon {
+    cursor: pointer;
+    color: #3f51b5; /* Adjust color as needed */
+    margin-left: auto; /* Align edit icon to the end */
+  }
+
+
+  .personal_info {
+    font: bold;
+    font-size: 20px;
+    color: rgb(1, 1, 32);
+  }
+  .Update_txt{
+    font-size: 12px;
+    color: rgb(134, 136, 139);
+  }
+  .other-details-card{
+    border-radius: 20px;
+  }
+
+
+
+
+  .custom-card {
+    width: 100%;
+; /* Adjust maximum width as needed */
+    margin: auto;
+    padding: 20px;
+  }
+
+  .example-form-field {
+    width: calc(33.33% - 10px); /* Adjust width of form fields */
+    margin-right: 10px;
+  }
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .mat-divider {
+    margin-top: 20px;
+  }
+.actions-section {
+  display: flex;
+  justify-content: center;
+   /* Adjust spacing between buttons */
+}
+
+.action-item, .action-item1 {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add some rounded corners */
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.action-item:hover  {
+  background-color: #0056b3; /* Darker color on hover */
+}
+.action-item1:hover{
+  background-color: #ac1515; /* Darker color on hover */
+
+
+}
+.action-item1 {
+  background-color: #f43232; /* Different color for delete button */
+}
+.container {
+  align-items: center;
+    justify-content: center;
+  /* Adjust as needed */
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+
+  font-weight: 800;
+  // max-width: 100%;
+  // max-height: 100%;
+}
+
